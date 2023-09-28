@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        lista del super
+    </title>
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-firestore-compat.js"></script>
+    <script src="lista.js"></script>
+    <script src="config.js"></script>
+    <script src="guardar.js"></script>
+
+</head>
+<body>
+    <center>
+        <div>
+            <h1>
+                Tu lista del super
+            </h1>
+        </div>
+        <br>
+        <div>
+            <img src="6680353.png"></img>
+        </div>
+        <br>
+        <div>
+            <button onclick="lista()">Conseguir lista</button>
+        </div>
+        <div>
+            <table>
+                <tr></tr>
+                <td>cantidad</td>
+                <td>nombre</td>
+                <td>precio</td>
+            </table>
+            
+        </div>
+        <div>
+            <list id="imprimir" ></list>
+            <list id="imprimir2" ></list>
+            <list id="imprimir3" ></list>
+        </div>
+        <br>
+        
+        <div>
+            <!--<label>Tu presupuesto</label>-->
+            <!--<label>Total de la lista</label-->
+        </div>
+        <div>
+            <input type="number" placeholder="Presupuesto" id="Presupuesto" name="presupuesto"></input>
+            <!--<label>500</label>-->
+        </div>
+        <br>
+        <div>
+            
+        </div>
+        <br>
+        <div>
+            <!--<label>Tu cambio</label>-->
+            <button>Iniciar de nuevo</button>
+        </div>
+        <div>
+            <!--<label>500</label>-->
+        </div>
+
+    </center>
+</body>

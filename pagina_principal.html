@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        lista del super
+    </title>
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/10.4.0/firebase-firestore-compat.js"></script>
+    <script src="config.js"></script>
+    <script src="guardar.js"></script>
+    <script src="lista.js"></script>
+</head>
+<body>
+    <center>
+        <div>
+            <h1>
+            Lista del super
+            </h1>
+        </div>
+        <br>
+        <div>
+            <img src="6680353.png"></img>
+        </div>
+        <br>
+        <div>
+            <input type="text" placeholder="Agregar producto" id="producto" name="producto"></input>
+        </div>
+        <br>
+        <div>
+            <input type="number" placeholder="Cantidad" id="cantidad" name="cantidad"></input>
+            <input type="number" placeholder="Precio individual" id="precio" name="precio"></input>
+        </div>
+        <br>
+        <div>
+            <button onclick="guardar()">Agregar</button>
+        </div>
+        <br>
+        <div>
+            <input type="number" placeholder="Presupuesto" id="pesupuesto" name="presupuesto"></input>
+        </div>
+        <br>
+        <div>
+            <button onclick="window.location.href='pagina_secundaria.html';" onclick="lista()">Ir a tu lista</button>
+        </div>
+        <div>
+            <button onclick="lista()">Enviar lista</button>
+        </div>
+
+    </center>
+</body>
